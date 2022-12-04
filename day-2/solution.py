@@ -20,9 +20,8 @@ def decrypt_guide(encrypted_msg):
         'Z': 'Scissors'}
     return decryption_map[encrypted_msg]
 
+
 # Rock defeats Scissors, Scissors defeats Paper, and Paper defeats Rock
-
-
 def calculate_round_score(dec_opponent_choise, dec_your_choise):
     shapes_scores = {
         'Rock': 1,

@@ -13,10 +13,6 @@ move 1 from 1 to 2
 """
 
 
-def part_one():
-    None
-
-
 def parse_crates_line(line):
     end = len(line)
     start = end - 3

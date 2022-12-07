@@ -1,5 +1,3 @@
-
-
 def start_of_distinct_chars(input, n):
     for i in range(0, len(input)):
         if len(set(list(input[i:i+n]))) == n:
